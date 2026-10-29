@@ -1,0 +1,6 @@
+{
+  "name": "Numa · Immersive Experiences & Wellness Deck",
+  "description": "Numa: Immersive event studio merging technological art, conscious wellness, and ephemeral universes in Florianópolis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

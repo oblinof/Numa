@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color-scheme: light;
+    background-color: #FFFFFF;
+    color: #0A0A0A;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Luminous Minimalist Glass Panels */
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* Fluorescent accents */
+.badge-neon-green {
+  background: rgba(0, 255, 102, 0.12);
+  color: #058F3B;
+  border: 1px solid rgba(0, 255, 102, 0.35);
+}
+
+.badge-neon-pink {
+  background: rgba(255, 0, 127, 0.08);
+  color: #D60068;
+  border: 1px solid rgba(255, 0, 127, 0.3);
+}
+
+.glow-neon-green {
+  box-shadow: 0 0 25px -4px rgba(0, 255, 102, 0.4);
+}
+
+.glow-neon-pink {
+  box-shadow: 0 0 25px -4px rgba(255, 0, 127, 0.35);
+}
+
+/* Subtle scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+@keyframes breatheSlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+
+.animate-breathe {
+  animation: breatheSlow 8s ease-in-out infinite;
+}
