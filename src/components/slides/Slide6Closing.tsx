@@ -52,7 +52,7 @@ export const Slide6Closing: React.FC<Slide6Props> = ({ agencyName, onReset, onOp
       {/* Background Ambience from Generated Asset */}
       <div className="absolute inset-0 z-0 opacity-25 pointer-events-none overflow-hidden">
         <img
-          src="/src/assets/images/floripa_beach_portal_1793241345659.jpg"
+          src="/images/floripa_beach_portal_1793241345659.jpg"
           alt="Portal de luz en Florianópolis"
           className="w-full h-full object-cover filter brightness-90 contrast-110"
           referrerPolicy="no-referrer"

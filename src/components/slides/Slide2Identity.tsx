@@ -60,7 +60,7 @@ export const Slide2Identity: React.FC<Slide2Props> = ({ agencyName, onUpdateAgen
       {/* Background Ambience from Generated Asset */}
       <div className="absolute inset-0 z-0 opacity-20 pointer-events-none overflow-hidden">
         <img
-          src="/src/assets/images/floripa_beach_portal_1793241345659.jpg"
+          src="/images/floripa_beach_portal_1793241345659.jpg"
           alt="Portal efímero en playa de Florianópolis"
           className="w-full h-full object-cover filter blur-[2px]"
           referrerPolicy="no-referrer"

@@ -280,7 +280,7 @@ export const InteractiveScrollPitch: React.FC = () => {
         >
           <motion.div style={{ scale: heroImageScale, y: heroImageY }} className="w-full h-full">
             <img
-              src="/src/assets/images/paradise_yoga_light_1793242933753.jpg"
+              src="/images/paradise_yoga_light_1793242933753.jpg"
               alt="Cliffside yoga with glowing circular halo art over turquoise ocean in Florianópolis"
               className="w-full h-[360px] sm:h-[460px] object-cover filter brightness-95 contrast-105"
               referrerPolicy="no-referrer"
@@ -362,21 +362,21 @@ export const InteractiveScrollPitch: React.FC = () => {
                 kicker: 'Light & Responsive Code',
                 accent: '#00FF66',
                 desc: 'Living kinetic illumination and parametric light sculptures responsive to human presence and spatial rhythms.',
-                image: '/src/assets/images/forest_reactive_light_1793241346579.jpg',
+                image: '/images/forest_reactive_light_1793241346579.jpg',
               },
               {
                 title: 'Immersive Pavilions',
                 kicker: 'Ephemeral Architecture',
                 accent: '#FF007F',
                 desc: 'Temporary architecture woven into the island: 360° soundscapes, travertine water decks, and luminous ocean portals.',
-                image: '/src/assets/images/lagoon_zen_pavilion_1793242934529.jpg',
+                image: '/images/lagoon_zen_pavilion_1793242934529.jpg',
               },
               {
                 title: 'Conscious Wellness',
                 kicker: 'Restorative Presence',
                 accent: '#00FF66',
                 desc: 'Sensory harmony: botanical elixirs, acoustic meditations, and restorative gatherings framed by natural beauty.',
-                image: '/src/assets/images/cliff_sound_bath_1793243278252.jpg',
+                image: '/images/cliff_sound_bath_1793243278252.jpg',
               },
             ].map((pillar, idx) => (
               <motion.div

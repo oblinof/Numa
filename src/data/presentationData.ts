@@ -65,7 +65,7 @@ export const EXPERIENCE_FORMATS: ExperienceFormat[] = [
     headline: 'Experimental music, spatial soundscapes, and light installations by the sea.',
     description:
       'Celebrations set at golden hour and dusk centered on deep listening, free movement, and contemplation. Multichannel spatial sound, botanical elixirs, and radiant visual art synchronized with the ocean horizon.',
-    image: '/src/assets/images/floripa_sunset_wellness_1793241940629.jpg',
+    image: '/images/floripa_sunset_wellness_1793241940629.jpg',
     specs: ['Golden Hour to Starlight', '360° Multichannel Immersion', 'Oceanfront Sanctuaries'],
     vibe: 'Contemplative · Hypnotic · Restorative',
     accentColor: '#FF007F',
@@ -77,7 +77,7 @@ export const EXPERIENCE_FORMATS: ExperienceFormat[] = [
     headline: 'Designed for deep reconnection, mindfulness, and creative expansion.',
     description:
       'Three-day immersions set in secluded nature. Open-air mindfulness on panoramic cliff decks, sound meditations under glowing architectural halos, and tranquil moments of shared stillness.',
-    image: '/src/assets/images/floripa_beach_portal_1793241345659.jpg',
+    image: '/images/floripa_beach_portal_1793241345659.jpg',
     specs: ['3-Day Reconnective Journey', 'Coastal Light Portals', 'Deep Restorative Stillness'],
     vibe: 'Regenerative · Sublime · Restorative',
     accentColor: '#00FF66',
@@ -89,7 +89,7 @@ export const EXPERIENCE_FORMATS: ExperienceFormat[] = [
     headline: 'Surprising the island with interactive installations and contemporary rituals.',
     description:
       'Ephemeral gatherings in secret coastal lookouts, hidden white sands, and botanical gardens. Organic light sculptures, ambient acoustic soundscapes, and intimate sunset circles.',
-    image: '/src/assets/images/beach_sculpture_dusk_1793242935035.jpg',
+    image: '/images/beach_sculpture_dusk_1793242935035.jpg',
     specs: ['Intimate Gatherings', 'Secret Island Hideaways', 'Ephemeral Light Arches'],
     vibe: 'Intimate · Spontaneous · Serene',
     accentColor: '#00FF66',
@@ -101,7 +101,7 @@ export const EXPERIENCE_FORMATS: ExperienceFormat[] = [
     headline: 'Where technology serves to elevate, inspire, and connect.',
     description:
       'Bespoke executive retreats and cultural activations for visionary teams. Environments where spatial installations, serene architecture, and art foster clarity, empathy, and enduring memories.',
-    image: '/src/assets/images/conscious_night_event_1793241347612.jpg',
+    image: '/images/conscious_night_event_1793241347612.jpg',
     specs: ['Custom Spatial Curation', 'Boutique Resort Privacy', 'High-Touch Hospitality'],
     vibe: 'Bespoke · Visionary · Refined',
     accentColor: '#FF007F',
@@ -113,25 +113,25 @@ export const GALLERY_MOMENTS = [
   {
     title: 'Dune Sunset Tensile Canopy',
     location: 'Joaquina Coastal Dunes',
-    image: '/src/assets/images/dune_sunset_canopy_1793243279865.jpg',
+    image: '/images/dune_sunset_canopy_1793243279865.jpg',
     tag: 'Architectural Tensile Structure',
   },
   {
     title: 'Floating Lagoon Light Cube',
     location: 'Lagoa da Conceição',
-    image: '/src/assets/images/lagoon_floating_deck_1793243278754.jpg',
+    image: '/images/lagoon_floating_deck_1793243278754.jpg',
     tag: 'Water Deck & Geometric Art',
   },
   {
     title: 'Rainforest Sound Sanctuary',
     location: 'Mata Atlântica North',
-    image: '/src/assets/images/forest_sound_dome_1793242935691.jpg',
+    image: '/images/forest_sound_dome_1793242935691.jpg',
     tag: 'Acoustic Dome Meditation',
   },
   {
     title: 'Boutique Oceanfront Horizon',
     location: 'East Coast Sanctuary',
-    image: '/src/assets/images/boutique_retreat_space_1793241347886.jpg',
+    image: '/images/boutique_retreat_space_1793241347886.jpg',
     tag: 'Turnkey Luxury Living',
   },
 ];
